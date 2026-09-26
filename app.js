@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     return res.end(JSON.stringify({ status: 'ok' }));
   }
   res.writeHead(200);
-  res.end('TechBank - aplicacion interna');
+  res.end('TechBank - aplicacion interna QA');
 });
 
 if (require.main === module) {
